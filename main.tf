@@ -128,7 +128,6 @@ resource "aws_instance" "web" {
   }
 root_block_device {
     volume_size = 30
-    
   }
 }
 
